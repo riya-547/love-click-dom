@@ -1,7 +1,7 @@
 var container = document.querySelector("#container");
 var love = document.querySelector("i");
 
-container.addEventListener("click", function() {
+container.addEventListener("dblclick", function() {
     
     love.style.opacity = 1;
     love.style.transform.scale = 1
